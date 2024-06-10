@@ -1,0 +1,3 @@
+Network latency and communication overhead: Introducing ZooKeeper for distributed locking may increase network latency and communication overhead, impacting system performance.
+Single point of failure: ZooKeeper itself can become a single point of failure, potentially disrupting the entire system if it fails.
+Scalability limitations: While ZooKeeper is designed for high availability and scalability, it may have limitations in very large-scale deployments.

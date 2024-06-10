@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ZooKeeperNetEx/3.4.12.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ZooKeeperNetEx.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ZooKeeperNetEx.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZooKeeperNetEx/3.4.12.4": {
+      "sha512": "YECtByVSH7TRjQKplwOWiKyanCqYE5eEkGk5YtHJgsnbZ6+p1o0Gvs5RIsZLotiAVa6Niez1BJyKY/RDY/L6zg==",
+      "type": "package",
+      "path": "zookeepernetex/3.4.12.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ZooKeeperNetEx.png",
+        "lib/net461/ZooKeeperNetEx.dll",
+        "lib/net461/ZooKeeperNetEx.xml",
+        "lib/netstandard2.0/ZooKeeperNetEx.dll",
+        "lib/netstandard2.0/ZooKeeperNetEx.xml",
+        "zookeepernetex.3.4.12.4.nupkg.sha512",
+        "zookeepernetex.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ZooKeeperNetEx >= 3.4.12.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Coder\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\integration\\IntegrationCase-main\\Integration\\Integration.csproj",
+      "projectName": "Integration",
+      "projectPath": "D:\\Projects\\integration\\IntegrationCase-main\\Integration\\Integration.csproj",
+      "packagesPath": "C:\\Users\\Coder\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\integration\\IntegrationCase-main\\Integration\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Coder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "ZooKeeperNetEx": {
+            "target": "Package",
+            "version": "[3.4.12.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.19, 7.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.19, 7.0.19]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.19, 7.0.19]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.19, 7.0.19]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3WxZNdeBYWI=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\integration\\IntegrationCase-main\\Integration\\Integration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Coder\\.nuget\\packages\\zookeepernetex\\3.4.12.4\\zookeepernetex.3.4.12.4.nupkg.sha512",
+    "C:\\Users\\Coder\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\Coder\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\Coder\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\Coder\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
